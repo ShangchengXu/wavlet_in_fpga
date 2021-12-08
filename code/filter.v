@@ -1,8 +1,8 @@
-module filter_e_l(
+module filter(
 	input clk,
 	input rst_n,
 	input [15:0] data_in,
-	output [15:0] data_out
+	output [19:0] data_out
 );
 
 
