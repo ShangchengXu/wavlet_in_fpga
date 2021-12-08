@@ -1,0 +1,3 @@
+[submodule "pythonToolsForVerilog"]
+	path = pythonToolsForVerilog
+	url = git@github.com:ShangchengXu/pythonToolsForVerilog.git
