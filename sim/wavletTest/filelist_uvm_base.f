@@ -1,0 +1,12 @@
+/home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/wavlet_package.sv
+/home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/wavlet_transaction.sv
+/home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/wavlet_sequencer.sv
+/home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/wavlet_interface_port.sv
+/home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/wavlet_interface_inner.sv
+/home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/wavlet_driver.sv
+/home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/wavlet_monitor.sv
+/home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/wavlet_agent.sv
+/home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/wavlet_model.sv
+/home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/wavlet_scoreboard.sv
+/home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/wavlet_env.sv
+/home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/wavlet_base_test.sv

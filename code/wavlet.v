@@ -34,6 +34,8 @@ wire signed [19:0] hd_out_o;
 wire signed [19:0] ld_out_e;
 wire signed [19:0] ld_out_o;
 
+wire signed [15:0] data_out_o;
+wire signed [15:0] data_out_e;
 
 
 

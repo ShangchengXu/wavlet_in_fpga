@@ -1,0 +1,3 @@
+-f /home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/filelist_defines.f
+-f /home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/filelist_modules.f
+-f /home/IC/xsc/git_pro/wavlet_in_fpga/sim/wavletTest/filelist_uvm.f

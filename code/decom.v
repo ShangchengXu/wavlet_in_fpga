@@ -30,14 +30,14 @@ always @(negedge cnt or negedge rst_n) begin
 end
 
 
-always(posedge clk or negedge rst_n) begin
+always@(posedge clk or negedge rst_n) begin
 	if(!rst_n)
 		data_out_e <= 0;
 	else
 		data_out_e <= data_e_temp;
 end
 
-always(posedge clk or negedge rst_n) begin
+always@(posedge clk or negedge rst_n) begin
 	if(!rst_n)
 		data_out_o <= 0;
 	else
