@@ -1,21 +1,21 @@
 module filter(
 	input clk,
 	input rst_n,
-	input [15:0] data_in,
-	output [19:0] data_out
+	input signed  [15:0] data_in,
+	output signed [19:0] data_out
 );
 
 
-reg [15:00 ] shift_reg[4];
+reg signed [15:0 ]  shift_reg[4];
 parameter COF0 = 0  ;
 parameter COF1 = 0  ;
 parameter COF2 = 0  ;
 parameter COF3 = 0  ;
 
-wire [31:0] mul_temp0 = shift_reg[0] * COF0;
-wire [31:0] mul_temp1 = shift_reg[1] * COF1;
-wire [31:0] mul_temp2 = shift_reg[2] * COF2;
-wire [31:0] mul_temp3 = shift_reg[3] * COF3;
+wire signed [31:0] mul_temp0 = shift_reg[0] * COF0;
+wire signed [31:0] mul_temp1 = shift_reg[1] * COF1;
+wire signed [31:0] mul_temp2 = shift_reg[2] * COF2;
+wire signed [31:0] mul_temp3 = shift_reg[3] * COF3;
 
 assign data_out = mul_temp0[31:8] + mul_temp1[31:8] + mul_temp2[31:8] + mul_temp3[31:8];
 genvar  i;

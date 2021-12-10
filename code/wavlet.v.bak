@@ -1,0 +1,15 @@
+module wavlet(
+	input clk,
+	input rst_n,
+	input [15:0] data_in,
+	output [19:0] data_out
+);
+
+
+
+
+
+decom decom_inst(/*inst*/);
+filter filter_inst0(/*inst*/);
+
+endmodule
